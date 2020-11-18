@@ -13,17 +13,22 @@ module.exports = (app) => {
 
     app.get("api/notes", (req, res) => {
         res.json(data)
+    });
+
+    app.get("/api/notes:id", (req, res) => {
+        res.json(data[Number(req.params.id)])
     })
+};
 
     // POST: Read JSON file and Add it
     // POST: Rewrite JSON file
-    app.post("/api/notes", (req, res) => {
-        notes.push(req.body);
-        res.json(notes)
-    })
+//     app.post("/api/notes", (req, res) => {
+//         notes.push(req.body);
+//         res.json(notes)
+//     })
 
-    app.delete("api/notes", (req, res) => {
-        notes.push(req.body);
-        res.json(notes)
-    })
-}
+//     app.delete("api/notes", (req, res) => {
+//         notes.push(req.body);
+//         res.json(notes)
+//     })
+// }
