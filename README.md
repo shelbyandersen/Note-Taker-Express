@@ -18,6 +18,8 @@ This project utilizes Express.js to create an application that can be used to wr
 
 This application allows users to create and save notes. A user can also view previously saved notes. Finally, a user can delete notes if they choose.
 
+![Note Taker Demo](./public/assets/images/note-taker-demo.png)
+
 To view the final application, please use this link:
 
 -
