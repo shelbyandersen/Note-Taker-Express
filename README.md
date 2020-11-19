@@ -22,7 +22,7 @@ This application allows users to create and save notes. A user can also view pre
 
 To view the final application, please use this link:
 
--
+- https://sheltered-shore-14093.herokuapp.com/
 
 # Installation
 
@@ -58,7 +58,7 @@ The application was completed by Shelby Andersen
 
 To test this application you can use the link here:
 
--
+- https://sheltered-shore-14093.herokuapp.com/
 
 # License
 
