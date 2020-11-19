@@ -1,15 +1,16 @@
 // Require Express
-var express = require("express");
+const express = require("express");
+const fs = require("fs");
 
 // Create Express Server
-var app = express();
+const app = express();
 
 // Setting Express Server - Declaring JSON
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Requiring public folder
-app.use(express.static("Develop/public"));
+app.use(express.static("/public"));
 
 // Point server to route files
 require("./routes/apiRoutes")(app);
