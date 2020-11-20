@@ -31,13 +31,9 @@ module.exports = (app) => {
 });
 
     // // Delete route [WIP]
-    //     app.delete("/api/notes/:id", (req, res) => {
+        // app.delete("/api/notes/:id", (req, res) => {
 
-    //     let id = req.params.id;
-    //     let deleteNote = data.filter((item) => item.id != id);
-    //     const notesToDelete = JSON.parse(fs.readFileSync(path.join(__dirname, "./db/db.json")));
-    //     fs.writeFileSync("./db.db.json", JSON.stringify(deleteNote));
-    //     return res.json(notesToDelete);
-    //     });
+        // });
+        
 
 }
